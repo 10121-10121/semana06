@@ -20,7 +20,12 @@
             app:layout_constraintTop_toTopOf="parent" />
         <!-- mach-parent: se expande en otda la pantalla -->
         <!-- wrap-content: utiliza lo nesesario-->
-        <Button
+        <Button android:id="@+id/btnEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="presioname"></Button>
+
+        <Button android:id="@+id/btnAboutUs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="presioname"></Button>
